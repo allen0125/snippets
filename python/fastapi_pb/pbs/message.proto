@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message RequestMessage{
+    int64 uid = 1;
+    string msg = 2;
+}
+
+message ResponsedMessage{
+    int64 uid = 1;
+    string msg = 2;
+}
